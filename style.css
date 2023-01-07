@@ -1,1 +1,110 @@
+body {
+
+}
+
+.container {
+
+}
+
+.nav {
+
+}
+
+.sidebar {
+
+}
+
+.content {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ICON STYLING */
+
+li {
+    padding: 0.4em 0 0.5em 1.5em;
+    margin-bottom:0.2em;
+    text-indent:0.4em;
+    font-weight:bold;
+    list-style:none;
+    background-repeat: no-repeat;
+}
+
+.settings {
+    background-image: url(icons/account-heart-outline.png);
+}
+
+.support {
+    background-image: url(icons/air-humidifier-off.png);
+}
+
+ul {
+    padding: 0;
+}
+
+/* ICON STYLING */
+
+
 
