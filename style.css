@@ -267,5 +267,9 @@ li:hover {
     background-repeat: no-repeat;
     background-image: url(icons/share-variant-outline.png);
  }
+
+ .add-favorite:hover {
+     background-image: url(icons/star.png);
+ }
  
 
