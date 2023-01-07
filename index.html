@@ -12,23 +12,31 @@
 <body>
     <div class="container">
 
-        <div class="nav" style="height: 125px;">
+        <div class="nav">
             <div class="topnav">
                 <!-- GIVE THIS A FIXED SIZE AND BORDER-RADIUS. APPLY THE SAME STYLING AS THE SIDEBAR ICONS ALSO -->
-                <div class="searchbar">a</div>
+                <input class="searchbar">a</input>
                 <div class="nav-right-icons">
                     <!-- TESTING. CHECK THIS LATER TO SEE IF I SHOULD MAKE AN IMG TAG INSTEAD -->
-                    <div class="notifications">a</div>
-                    <div class="profile-pic-smaller">a</div>
-                    <div class="users-name">a</div>
+                    <div class="notifications"></div>
+                    <div class="profile-pic-smaller"></div>
+                    <div class="users-name">Thor Odinson</div>
                 </div>
             </div>
             <div class="bottomnav">
-
+                <div class="welcome">
+                    <h6>Hi there,</h6>
+                    <h4>Thor, Son of Odin (@thor)</h4>
+                </div>
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
 
-        <div class="sidebar" style="background-color: rgb(58, 58, 175);">
+        <aside class="sidebar">
             <div class="dashboard-logo">Dashboard</div>
             <ul class="tabs">
                 <li class="home">Home</li>
@@ -43,114 +51,124 @@
                 <li class="support">Support</li>
                 <li class="privacy">Privacy</li>
             </ul>
-        </div>
+        </aside>
 
-        <div class="content" style="background-color: rgb(162, 160, 160);">
+        <div class="content">
             <div class="projects">
                 <h3>My Projects</h3>
-                <div class="card">
-                    <div class="title">
-                        Landing Page
+                <div class="cards">
+                    <div class="card">
+                        <div class="title">
+                            Landing Page
+                        </div>
+                        <div class="text">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
-                    <div class="text">
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    <div class="card">
+                        <div class="title">
+                            Rock Paper Scissors
+                        </div>
+                        <div class="text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto
+                            beatae vitae dicta sunt explicabo
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
+                    <div class="card">
+                        <div class="title">
+                            Etch-A-Sketch
+                        </div>
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="title">
-                        Rock Paper Scissors
+                    <div class="card">
+                        <div class="title">
+                            Calculator
+                        </div>
+                        <div class="text">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo
+                            consequat.
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
-                    <div class="text">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                        beatae vitae dicta sunt explicabo
+                    <div class="card">
+                        <div class="title">
+                            Sign-up Form
+                        </div>
+                        <div class="text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur.
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="title">
-                        Etch-A-Sketch
-                    </div>
-                    <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="title">
-                        Calculator
-                    </div>
-                    <div class="text">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="title">
-                        Sign-up Form
-                    </div>
-                    <div class="text">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                    </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="title">
-                        To-do List
-                    </div>
-                    <div class="text">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
-                    </div>
-                    <div class="icons">
-                        <div class="add-favorite">a</div>
-                        <div class="project-preview">a</div>
-                        <div class="share">a</div>
+                    <div class="card">
+                        <div class="title">
+                            To-do List
+                        </div>
+                        <div class="text">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim
+                            id est laborum.
+                        </div>
+                        <div class="icons">
+                            <div class="add-favorite">a</div>
+                            <div class="project-preview">a</div>
+                            <div class="share">a</div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="side-content">
                 <div class="announcements">
                     <h3>Announcements</h3>
-                    <div class="announcement">
-                        <div class="announcement-title">Site Maintenance</div>
-                        <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                            aut fugit.</div>
-                    </div>
-                    <div class="announcement">
-                        <div class="announcement-title">Community Share Day</div>
-                        <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                            aut fugit.</div>
-                    </div>
-                    <div class="announcement">
-                        <div class="announcement-title">Updated Privacy Policy</div>
-                        <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                            aut fugit.</div>
+                    <div class="announcement-list">
+                        <div class="announcement">
+                            <div class="announcement-title">Site Maintenance</div>
+                            <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                                odit
+                                aut fugit.</div>
+                        </div>
+                        <div class="announcement">
+                            <div class="announcement-title">Community Share Day</div>
+                            <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                                odit
+                                aut fugit.</div>
+                        </div>
+                        <div class="announcement">
+                            <div class="announcement-title">Updated Privacy Policy</div>
+                            <div class="announcement-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                                odit
+                                aut fugit.</div>
+                        </div>
                     </div>
                 </div>
                 <div class="trending">
