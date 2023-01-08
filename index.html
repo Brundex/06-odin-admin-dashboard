@@ -15,18 +15,21 @@
         <div class="nav">
             <div class="topnav">
                 <!-- GIVE THIS A FIXED SIZE AND BORDER-RADIUS. APPLY THE SAME STYLING AS THE SIDEBAR ICONS ALSO -->
-                <input class="searchbar"></input>
+                <div class="searchbar"><input></input></div>
                 <div class="nav-right-icons">
                     <!-- TESTING. CHECK THIS LATER TO SEE IF I SHOULD MAKE AN IMG TAG INSTEAD -->
-                    <div class="notifications"></div>
-                    <div class="profile-pic-smaller"></div>
-                    <div class="users-name">Thor Odinson</div>
+                    <img src="icons/bell-outline.png" class="notifications"></img>
+                    <img src="profile-pics/pumpkin.jpg" alt="pumpkin">
+                    <div class="users-name">Bruno Puod</div>
                 </div>
             </div>
             <div class="bottomnav">
                 <div class="welcome">
-                    <h6>Hi there,</h6>
-                    <h4>Thor, Son of Odin (@thor)</h4>
+                    <img src="profile-pics/pumpkin.jpg" id="pumpkin" alt="pumpkin">
+                    <div class="name">
+                        <h3>Hi there,</h3>
+                        <h2>Bruno (@bruno)</h2>
+                    </div>
                 </div>
                 <div class="buttons">
                     <button>New</button>
@@ -189,21 +192,33 @@
                 <div class="trending">
                     <h3>Trending</h3>
                     <div class="trends">
-                        <div class="trend">
-                            <div class="trend-at">@tegan</div>
-                            <div class="trend-description">World Peace Builder</div>
+                        <div class="trend" id="robot">
+                            <img src="profile-pics/robot.jpg" alt="robot">
+                            <div class="trend-text">
+                                <div class="trend-at">@tegan</div>
+                                <div class="trend-description">World Peace Builder</div>
+                            </div>
                         </div>
-                        <div class="trend">
-                            <div class="trend-at">@morgan</div>
-                            <div class="trend-description">Life Changing App</div>
+                        <div class="trend" id="woody">
+                            <img src="profile-pics/woody.jpg" alt="woody">
+                            <div class="trend-text">
+                                <div class="trend-at">@morgan</div>
+                                <div class="trend-description">Life Changing App</div>
+                            </div>
                         </div>
-                        <div class="trend">
-                            <div class="trend-at">@kendall</div>
-                            <div class="trend-description">Super Cool Project</div>
+                        <div class="trend" id="dog">
+                            <img src="profile-pics/dog.jpg" alt="dog">
+                            <div class="trend-text">
+                                <div class="trend-at">@kendall</div>
+                                <div class="trend-description">Super Cool Project</div>
+                            </div>
                         </div>
-                        <div class="trend">
-                            <div class="trend-at">@alex</div>
-                            <div class="trend-description">No Traffic Maker</div>
+                        <div class="trend" id="minion">
+                            <img src="profile-pics/minion.jpg" alt="minion">
+                            <div class="trend-text">
+                                <div class="trend-at">@alex</div>
+                                <div class="trend-description">No Traffic Maker</div>
+                            </div>
                         </div>
                     </div>
                 </div>
